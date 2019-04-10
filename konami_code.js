@@ -12,12 +12,11 @@ const codes = [
 ];
 
 
-
+let index = 0;
 function init() {
   // your code here
   //attaching event listeners to keydown events in correct order
   //of konami code above
-  let index = 0;
   document.body.addEventListener('keydown', onKeyDownHandler)
   }
 
