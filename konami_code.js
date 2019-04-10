@@ -18,6 +18,8 @@ function init() {
   //attaching event listeners to keydown events in correct order
   //of konami code above
   let index = 0;
+  document.querySelector.addEventListener('keydown', onKeyDownHandler)
+  }
 
   function onKeyDownHandler(e) {
     const key = e.key
@@ -32,6 +34,5 @@ function init() {
       index = 0
     }
   }
-}
 
 init()
