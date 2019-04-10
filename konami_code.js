@@ -33,4 +33,4 @@ function init() {
   })
 }
 
-init();
+init()
